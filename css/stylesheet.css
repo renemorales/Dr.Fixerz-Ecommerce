@@ -415,13 +415,13 @@ a {
   letter-spacing: -0.04em;
   overflow: hidden;
   cursor: pointer;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 #content-area .container .content-gallery .box-gallery .image-overlay .centrize .v-bottom .btn-container a:hover {
   color: #fff !important;
-  background: #800080;
+  background-color: #fda50f;
 }
 
 #content-area .container .content-gallery .box-gallery .image-overlay .centrize .v-bottom .btn-container a:hover > .fas {

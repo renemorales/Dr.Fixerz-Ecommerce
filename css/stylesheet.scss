@@ -365,11 +365,12 @@ a {
                   letter-spacing: -0.04em;
                   overflow: hidden;
                   cursor: pointer;
-                  transition: 0.2s;
+                  transition: 0.4s;
 
                   &:hover {
                     color: $color-white !important;
-                    background: #800080;
+                    // background: #800080;
+                    background-color: #fda50f;
                   }
 
                   &:hover > .fas {
