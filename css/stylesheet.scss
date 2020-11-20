@@ -177,7 +177,7 @@ a {
     align-items: center;
 
     .center-content {
-      padding: 20vh;
+      padding: 10rem;
 
       h1 {
         font-size: 80px;
@@ -186,7 +186,7 @@ a {
         position: absolute;
       }
       .store-info {
-        padding-top: 25vh;
+        padding-top: 15rem;
         h3 {
           margin-bottom: 10px;
           text-transform: capitalize;
@@ -255,7 +255,8 @@ a {
 
 #content-area {
   .container {
-    width: 1170px;
+    width: 50%;
+    padding-bottom: 4rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -545,7 +546,7 @@ a {
   .container {
     display: flex;
     flex-direction: column;
-    margin: 100px 200px;
+    margin: 100px;
 
     .title {
       text-align: center;
@@ -570,7 +571,7 @@ a {
     }
     .content-info {
       color: $color-shade;
-      width: 950px;
+      width: 50%;
       margin: 0 auto;
 
       p {
@@ -1249,7 +1250,11 @@ a {
 //====================================================
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1519px) {
+  #content-area .container,
+  #services-content .container .content-info {
+    width: 100%;
+  }
 }
 
 /* Medium Devices, Desktops */

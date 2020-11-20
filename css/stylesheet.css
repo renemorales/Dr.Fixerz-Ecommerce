@@ -210,7 +210,7 @@ a {
 }
 
 #top-section .container .center-content {
-  padding: 20vh;
+  padding: 10rem;
 }
 
 #top-section .container .center-content h1 {
@@ -221,7 +221,7 @@ a {
 }
 
 #top-section .container .center-content .store-info {
-  padding-top: 25vh;
+  padding-top: 15rem;
 }
 
 #top-section .container .center-content .store-info h3 {
@@ -292,7 +292,8 @@ a {
 }
 
 #content-area .container {
-  width: 1170px;
+  width: 50%;
+  padding-bottom: 4rem;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -585,7 +586,7 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 100px 200px;
+  margin: 100px;
 }
 
 #services-content .container .title {
@@ -612,7 +613,7 @@ a {
 
 #services-content .container .content-info {
   color: #787878;
-  width: 950px;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -1329,6 +1330,13 @@ a {
 }
 
 /* Large Devices, Wide Screens */
+@media only screen and (max-width: 1519px) {
+  #content-area .container,
+  #services-content .container .content-info {
+    width: 100%;
+  }
+}
+
 /* Medium Devices, Desktops */
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
