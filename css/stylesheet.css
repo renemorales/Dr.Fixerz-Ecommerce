@@ -938,7 +938,7 @@ a {
 #cellPhone-option .container .device-heading {
   background: #fff;
   padding: 30px;
-  width: 1030px;
+  width: 100%;
   margin: 0 auto;
   -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.15);
